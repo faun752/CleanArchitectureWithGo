@@ -1,6 +1,6 @@
 package usecase
 
-import "../domain"
+import "CleanArchitectureWithGo/src/domain"
 
 type UserInteractor struct {
 	UserRepository UserRepository

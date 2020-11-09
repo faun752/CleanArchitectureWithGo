@@ -4,7 +4,7 @@ import (
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 
-	"../interfaces/database"
+	"CleanArchitectureWithGo/src/interfaces/database"
 )
 
 // SqlHandler is
@@ -13,7 +13,7 @@ type SqlHandler struct {
 }
 
 func NewSqlHandler() database.SqlHandler {
-	dsn := "root':password@tcp(127.0.0.1:3306)/cleanarchitecture_with_go?charset=utf8mb4&parseTime=True&loc=Local"
+	dsn := "root:password@tcp(127.0.0.1:3306)/cleanarchitecture_with_go?charset=utf8mb4&parseTime=True&loc=Local"
 	db, err := gorm.Open(mysql.Open(dsn), &gorm.Config{})
 	if err != nil {
 		panic(err.Error)

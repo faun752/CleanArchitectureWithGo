@@ -1,6 +1,6 @@
 package database
 
-import "../../domain"
+import "CleanArchitectureWithGo/src/domain"
 
 // UserRepository is
 type UserRepository struct {

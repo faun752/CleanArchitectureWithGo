@@ -1,9 +1,8 @@
 package infrastructure
 
 import (
+	controllers "CleanArchitectureWithGo/src/interfaces/api"
 	"net/http"
-
-	controllers "../interfaces/api"
 
 	"github.com/labstack/echo"
 )

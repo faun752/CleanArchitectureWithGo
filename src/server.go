@@ -1,8 +1,8 @@
 package main
 
 import (
-	"../src/domain"
-	"../src/infrastructure"
+	"CleanArchitectureWithGo/src/domain"
+	"CleanArchitectureWithGo/src/infrastructure"
 
 	"github.com/labstack/echo"
 	"gorm.io/driver/mysql"

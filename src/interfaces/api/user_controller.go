@@ -1,9 +1,9 @@
 package controllers
 
 import (
-	"../../domain"
-	"../../interfaces/database"
-	"../../usecase"
+	"CleanArchitectureWithGo/src/domain"
+	"CleanArchitectureWithGo/src/interfaces/database"
+	"CleanArchitectureWithGo/src/usecase"
 
 	"github.com/labstack/echo"
 )
